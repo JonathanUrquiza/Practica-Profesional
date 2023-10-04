@@ -2,6 +2,7 @@
     --site-header: #383c46;
     --site-main-background: #ffffff;
     --site-color-font: antiquewhite;
+    --site-color-bg-main: #c5c0c0af ;
 }
 * {
     margin: 0;
@@ -9,10 +10,5 @@
     box-sizing: border-box;
 }
 .hero {
-    width: 100%;
-    background-image: linear-gradient(0deg, rgba(40, 40, 40, 0.645), rgba(40, 40, 40, 0.645)),  url(../assent/img/AnalisisSistemas.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: var(--site-color-bg-main);    
 }
