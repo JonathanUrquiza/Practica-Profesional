@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../style/style.css">
   <link rel="stylesheet" href="../style/bootstrap.min.css">
   <title>WebWave</title>
+
 </head>
 
 <body>
@@ -73,10 +74,14 @@
           ISO-9000</span>.
       </p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="pages/nostros.html"><button type="button" class="btn btn-info btn-lg px-4 gap-3">Verifque su seguridad</button></a>
-        <a href="pages/nostros.html"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3">Asistencia en linea</button></a>
+        <button type="button" class="btn btn-info btn-lg px-4 gap-3" id="obtenerInfo">Verifque su seguridad</button>
+        <button type="button" class="btn btn-secondary btn-lg px-4 gap-3">Asistencia en linea</button>
       </div>
     </div>
+    <h1>Información del Cliente</h1>
+    <p>Dirección IP: <span id="ipAddress">Obteniendo...</span></p>
+    <p>Sistema Operativo: <span id="os">Obteniendo...</span></p>
+    
   </main>
   <footer class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
@@ -117,6 +122,7 @@
 
   </footer>
   <script src="../JS/bootstrap.bundle.min.js">BOOTSTRAP</script>
+  <script src="../JS/ip.js">IP-SO-y-Geoposicion</script>
 </body>
 
 </html>
