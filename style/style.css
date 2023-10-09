@@ -12,12 +12,3 @@
 .hero {
     background: var(--site-color-bg-main);
 }
-    
-.presentacion {
-    width: 100%;
-    border: 5px solid black;
-    background-image: url(../assent/img/asd.png);
-    background-repeat: no-repeat;
-    background-position: center ;
-    
-}
