@@ -2,13 +2,51 @@
     --site-header: #383c46;
     --site-main-background: #ffffff;
     --site-color-font: antiquewhite;
-    --site-color-bg-main: #c5c0c0af ;
+    --site-color-bg-main: #c5c0c0af;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .hero {
     background: var(--site-color-bg-main);
+}
+
+.form {
+    background-image: url(../assent/img/AnalisisSistemas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 30px;
+
+}
+
+
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+.fotoperfil {
+    width: 65%;
+    height: fit-content;
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 50%;
+    
+}
+.fotoperfilLeo {
+    
+    width: 50%;
+    height: 50px;
+    height: fit-content;
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 50%;
+    
 }

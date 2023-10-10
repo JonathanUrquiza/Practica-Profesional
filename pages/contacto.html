@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../assent/favicons/tripleW.png">
-    <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
     <title>WebWave</title>
 </head>
     <header>
         <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Consultora Informática</a>
+              <a class="navbar-brand" href="../index.html">Consultora Informática</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -23,10 +23,10 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                      <a class="nav-link active" aria-current="page" href="nostros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Galeria</a>
+                      <a class="nav-link" href="galery.html">Galeria</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="contacto.html">Contacto</a>
@@ -39,10 +39,6 @@
                         <li><a class="dropdown-item" href="#">Facebook</a></li>
                         <li><a class="dropdown-item" href="#">Instagram</a></li>
                         <li><a class="dropdown-item" href="#">linkedIn</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Contacto</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -55,54 +51,56 @@
             </div>
           </nav>
     </header>
-<main class="container">
+<main class="container  mb-5">
 <section class="row">
-  <h1 class="col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4">Contacto</h1>
-    <form action="" method="get" id="myForm" class="col-10 offset-1">
-        <fieldset class="">
-        <label for="name" class="form-label"><input type="text" name="name" placeholder="Nombre" class="input-group"></label>
-        <label for="lastname" class="form-label"><input type="text" name="lastname" placeholder="Apellido" class="input-group"></label>
-        <label for="email" class="form-label"><input type="email" name="email" id="email" placeholder="@email.com" class="input-group"></label>
-        </fieldset>
-        <fieldset>
-            <label for="bio">
-                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Dejanos tu cometario..."></textarea>
-            </label>
+  <form action="" method="get" id="myForm" class="form col-10 offset-2 col-md-8 offset-md-2 col-lg-6 offset-lg-3 d-flex flex-column align-items-center">
+      <h1 class="text-center card-title">Contáctanos</h1>
+        <fieldset class="form-label d-md-flex flex-md-column shadow-lg">
+        <label for="name" class="form-label"><input type="text" name="name" placeholder="Nombre" class="p-1 input-group"></label>
+        <label for="lastname" class="form-label"><input type="text" name="lastname" placeholder="Apellido" class="p-1 input-group"></label>
+        <label for="email" class="form-label"><input type="email" name="email" id="email" placeholder="@email.com" class="p-1 input-group  text-end"></label>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Dejanos tu cometario..." class="p-1"></textarea>
         </fieldset>
         <input type="submit" value="Enviar" id="submit" class="btn btn-dark">
     </form>
 </section>
 </main>
 
-    <footer class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="../assent/favicons/word.png" alt="" width="50px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Integrantes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Curriculum</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"></a>
-              </li>
-              <li class="nav-item dropup">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Redes</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-    
+<footer class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../assent/favicons/word.png" alt="" width="50px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav">
+        <li class="nav-item dropup">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Herramientas</a>
+        </li>
+        <li class="nav-item dropup">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Equipo Técnico</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="views/eze.html">Ezequiel Schepke</a></li>
+            <li><a class="dropdown-item" href="views/Leo.html">Leo</a></li>
+            <li><a class="dropdown-item" href="views/Dario.html">Dario Molina.</a></li>
+            <li><a class="dropdown-item" href="views/jonathan.html">Jonathan Urquiza</a></li>
+          </ul>
+        </li>
+       
+        <li class="nav-item dropup">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Redes</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 </footer>
 <script src="../JS/bootstrap.bundle.min.js">BOOTSTRAP</script>
 </body>

@@ -34,3 +34,4 @@ document.addEventListener('DOMContentLoaded', function() {
         osElement.textContent = os;
     });
 });
+
