@@ -12,66 +12,131 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
-      <div class="container-fluid">
-
-        <a class="navbar-brand" href="nostros.html">WebWave</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
-          aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
-          aria-labelledby="offcanvasNavbarDarkLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Servicios</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-              aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="nostros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="galery.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Redes
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Facebook</a></li>
-                  <li><a class="dropdown-item" href="#">Instagram</a></li>
-                  <li><a class="dropdown-item" href="#">linkedIn</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex mt-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+  <header class="container-fluid bg-secondary text-light py-1 d-none d-lg-block">
+    <div class=" d-flex flex-row justify-content-between align-items-center px-3">
+      <div class="d-flex flex-row">
+        <img src="" alt="" srcset="">
+        <div class="d-flex flex-row justify-content-around align-items-center mx-5">
+          <p class="mx-2">Buenos Aires</p>
+          <p>011-1234-5673</p>
+        </div>
+        <img src="" alt="" srcset="">
+        <div class="d-flex flex-row align-items-start mx-5">
+          <p class="mx-2">Rosario</p>
+          <p>0341-1234-5683</p>
         </div>
       </div>
-    </nav>
+      <div class="d-flex flex-row">
+
+        <img src="" alt="" srcset="">
+        <p><a href="" class="text-light text-decoration-none">WebWave@gmailcom</a></p>
+      </div>
+
+    </div>
   </header>
-  <main class="px-4 py-5 mb-5 text-center hero">
-    <img class="d-block mx-auto mb-4" src="../assent/img/lamparita-removebg-preview.png"
+  <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="nostros.html">WebWave</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
+        aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
+        aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Servicios</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="nostros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galery.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Redes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Instagram</a></li>
+                <li><a class="dropdown-item" href="#">linkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+
+
+
+    <section class="px-4 py-5 mb-5 text-center text-light hero">
+      <img class="d-block mx-auto mb-4" src="../assent/img/lamparita-removebg-preview.png"
       alt="Consultora profesiona de sistemas informaticos" width="250" height="150">
-    <h1 class="display-5 fw-bold text-decoration-underline">WebWave</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">
-        Nos especializamos en el análisis del desempeño, seguridad, fiabilidad del software, ya sea brindando control de
-        calidad del software, dando garantia de calidad, basandonos en la Gestión de Calidad en normas <span
-          class="fw-bold text-secondary">ISO
-          ISO-9000</span>.
-      </p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <h1 class="display-5 fw-bold text-decoration-underline">WebWave</h1>
+      <p>Brindamos soluciones integrales paa optimizar su</p>
+      <h2 class="display-5 text-black fw-bold">Plataforma informática</h2>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+        <span class="text-dark fw-bold">SOMOS WEBWAVE TECNOLÓGICA </span>, empresa dedicada al negocio tecnológico con vocación de servicio. Brindamos
+        soluciones integrales a empresas a través de nuestros planes de mantenimiento, actuando verdaderamente como una gerente de
+        sistemas prenviniendo y solucionando los problemas informáticos de su empresa.
+        <br>
+          Contamos con 4 sucursales distribuidas estratégicamente en la Provicia de Buenos Aires, siendo los únicos en el mercado en tener una presencia real cercana de su empresa al 
+          fin de disminuir los tiempos de respuestas con acciones concretas.
+        </p>
+      </div>
+      <h2 class="display-5 text-black">Empresa de Soporte informático</h2>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Los representantes de soporte técnico solucionan los problemas técnicos de su empresa. <br>
+          Los especialistas en computadoras resuelven problemas relacionados con computadoras, teléfonos, tabletas, módems, internet, redes, software,similares.
+
+        </p>
+
+      </div>
+ <!--      <div class="d-md-flex flex-row justify-content-around align-items-stretch">
+        <div class=" card my-3 mx-md-3 p-3 bg-dark text-light flex-row  align-items-center">
+          <img src="../assent/favicons/people-fill.svg" width="120rem" height="120rem" class="bg-warning bg-gradient bg-opacity-50 border border-1 border-warning rounded-pill p-2" alt="">
+          <div class="card-body p-3">
+            <h3 class="card-title">Siempre cerca suyo</h3>
+            <p class="card-text">Brindamos nuestos ervicios de IT en capital federal, Gran Buenos Aires y Rosario.</p>
+          </div>
+        </div>
+        <div class=" card my-3 mx-md-3  p-3 bg-dark text-light flex-row align-items-center">
+          <img src="../assent/favicons/headset.svg" width="120rem" height="120rem" class="bg-warning bg-gradient bg-opacity-50 border border-1 border-warning rounded-pill p-2"  alt="">
+          <div class="card-body p-3">
+            <h3 class="card-title">Atención inmediata</h3>
+            <p class="card-text">Contamos con atencion telefónica, WhatsApp, mail, y tickects de eventos.</p>
+          </div>
+        </div>
+        <div class=" card my-3 mx-md-3  p-3 bg-dark text-light flex-row align-items-center">
+          <img src="../assent/favicons/award.svg" width="120rem" height="120rem" class="bg-warning bg-gradient bg-opacity-50 border border-1 border-warning rounded-pill"  alt="">
+          <div class="p-3 card-body">
+            <h3 class="card-title">Amplia experiencia</h3>
+            <p class="card-text">Más de 20 años y 300 clientes mensuales garantizan nuestra calidad y serivicio.</p>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+
+ 
+ <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <button type="button" class="btn btn-info btn-lg px-4 gap-3" id="obtenerInfo">Verifque su seguridad</button>
         <button type="button" class="btn btn-secondary btn-lg px-4 gap-3">Asistencia en linea</button>
       </div>
@@ -81,6 +146,16 @@
       <p>Dirección IP: <span id="ipAddress"></span></p>
       <p>Sistema Operativo: <span id="os"></span></p>
     </div>
+  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-info btn-lg px-4 gap-3" id="obtenerInfo">Verifque su seguridad</button>
+        <button type="button" class="btn btn-secondary btn-lg px-4 gap-3">Asistencia en linea</button>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4 py-md-3 py-lg-5 ">
+      <h1>Información del Cliente</h1>
+      <p>Dirección IP: <span id="ipAddress"></span></p>
+      <p>Sistema Operativo: <span id="os"></span></p>
+    </div> -->
   </main>
   <footer class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
@@ -96,8 +171,8 @@
               Técnico</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="views/eze.html">Ezequiel Schepke</a></li>
-              <li><a class="dropdown-item" href="views/Leo.html">Leo</a></li>
-              <li><a class="dropdown-item" href="views/Dario.html">Dario Molina.</a></li>
+              <li><a class="dropdown-item" href="views/Leo.html">Leonardo Toledo</a></li>
+              <li><a class="dropdown-item" href="views/Dario.html">Dario Molina</a></li>
               <li><a class="dropdown-item" href="views/jonathan.html">Jonathan Urquiza</a></li>
             </ul>
           </li>
